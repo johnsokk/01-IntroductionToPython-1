@@ -28,3 +28,11 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 #   Don't forget to COMMIT-and-PUSH when you are done with this module.
 #
 ########################################################################
+import rosegraphics as rg
+
+window = rg.TurtleWindow()
+bill = rg.SimpleTurtle()
+bill.pen = rg.Pen('yellow', 10)
+for k in range(5):
+    bill.draw_regular_polygon(3, 50)
+window.close_on_mouse_click()

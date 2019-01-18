@@ -32,6 +32,7 @@ import math
 a = 77+math.cos(2.75)
 print(math.sqrt(a))
 
+
 ###############################################################################
 # DONE: 3.
 #   Immediately below this _TODO_, write code that computes and prints:
@@ -40,6 +41,7 @@ print(math.sqrt(a))
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
 print(math.sqrt((41*88)+(4*math.cos(2))))
+
 
 ###############################################################################
 # DONE: 4.

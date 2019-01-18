@@ -33,6 +33,14 @@ import rosegraphics as rg
 window = rg.TurtleWindow()
 bill = rg.SimpleTurtle()
 bill.pen = rg.Pen('yellow', 10)
-for k in range(5):
-    bill.draw_regular_polygon(3, 50)
+size = 150
+bill.speed = 40
+for k in range(6):
+    bill.draw_regular_polygon(3, size)
+    size = size - 25
+bill.pen = rg.Pen('blue', 5)
+radius = 5
+for k in range(20):
+    bill.draw_circle(radius)
+    radius = radius + 5
 window.close_on_mouse_click()
